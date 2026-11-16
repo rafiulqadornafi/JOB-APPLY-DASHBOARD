@@ -1,0 +1,1 @@
+export interface EmployerProfile{companyName:string;website:string;about:string;industry:string;}

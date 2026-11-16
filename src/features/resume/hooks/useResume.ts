@@ -1,0 +1,1 @@
+import {useState} from "react";export function useResume(){const [summary,setSummary]=useState("");const [headline,setHeadline]=useState("");return {summary,setSummary,headline,setHeadline};}

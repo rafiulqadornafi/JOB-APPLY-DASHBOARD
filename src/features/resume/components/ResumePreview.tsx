@@ -1,0 +1,1 @@
+export function ResumePreview({name,headline,summary}:{name:string;headline:string;summary:string}){return <div className="resume-preview"><h2>{name}</h2><h3>{headline}</h3><p>{summary}</p></div>;}

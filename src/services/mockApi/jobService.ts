@@ -1,0 +1,1 @@
+import {useAppStore} from "../../app/store/appStore";import type {Job} from "../../types";export const jobService={list:()=>useAppStore.getState().jobs,find:(id:string)=>useAppStore.getState().jobs.find(j=>j.id===id),create:(job:Omit<Job,"id"|"postedAt">)=>useAppStore.getState().addJob(job),remove:(id:string)=>useAppStore.getState().deleteJob(id)};

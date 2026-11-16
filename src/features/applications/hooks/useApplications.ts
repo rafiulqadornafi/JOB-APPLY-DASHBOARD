@@ -1,0 +1,1 @@
+import {useAppStore} from "../../../app/store/appStore";export function useApplications(candidateId?:string){return useAppStore(s=>candidateId?s.applications.filter(a=>a.candidateId===candidateId):s.applications);}

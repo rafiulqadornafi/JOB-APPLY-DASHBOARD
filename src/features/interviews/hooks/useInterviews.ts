@@ -1,0 +1,1 @@
+import {mockInterviews} from "../../../data/mock/interviews";export const useInterviews=()=>mockInterviews;

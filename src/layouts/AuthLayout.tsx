@@ -1,0 +1,1 @@
+import {Outlet,Link} from "react-router-dom";import {Logo} from "../components/common/Logo";export function AuthLayout(){return <div className="auth-layout"><header><Link to="/"><Logo/></Link><Link to="/">Back to website</Link></header><Outlet/><footer>© 2026 HIRENEST · A better way to work.</footer></div>;}

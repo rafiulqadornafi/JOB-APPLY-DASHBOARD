@@ -1,0 +1,1 @@
+import {WorkspaceShell} from "./WorkspaceShell";export function EmployerLayout(){return <WorkspaceShell role="employer"/>;}

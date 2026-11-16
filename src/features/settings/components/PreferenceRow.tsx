@@ -1,0 +1,1 @@
+export function PreferenceRow({label,description}:{label:string;description:string}){return <div className="preference-row"><b>{label}</b><small>{description}</small></div>;}

@@ -1,0 +1,1 @@
+export const sessionStore={get<T>(key:string,fallback:T):T{try{const x=sessionStorage.getItem(key);return x?JSON.parse(x) as T:fallback;}catch{return fallback;}},set<T>(key:string,value:T){sessionStorage.setItem(key,JSON.stringify(value));},clear(){sessionStorage.clear();}};

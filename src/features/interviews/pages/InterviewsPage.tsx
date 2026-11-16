@@ -1,0 +1,1 @@
+import {PageHeader} from "../../../components/common/PageHeader";import {InterviewList} from "../components/InterviewList";export function InterviewsPage(){return <><PageHeader title="Interviews" description="Keep upcoming conversations organized."/><InterviewList/></>;}

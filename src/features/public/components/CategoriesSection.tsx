@@ -1,0 +1,3 @@
+import {Link} from "react-router-dom";import {BriefcaseBusiness,Code2,Palette,BarChart3,Megaphone,Users} from "lucide-react";
+const categories=[["Engineering",Code2],["Design",Palette],["Marketing",Megaphone],["Business",BriefcaseBusiness],["Data",BarChart3],["People",Users]] as const;
+export function CategoriesSection(){return <section className="section container"><div className="center-heading"><small>EXPLORE BY CATEGORY</small><h2>Find the work that<br/><span>fits your strengths.</span></h2><p>Explore opportunities across the teams and disciplines shaping tomorrow.</p></div><div className="category-grid">{categories.map(([name,Icon])=><Link to={`/jobs?category=${name}`} key={name}><Icon/><b>{name}</b><span>Explore roles ↗</span></Link>)}</div></section>;}

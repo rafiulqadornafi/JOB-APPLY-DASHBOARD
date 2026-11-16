@@ -1,0 +1,1 @@
+export function AdminNotice({children}:{children:string}){return <div className="analytics-note"><b>Admin notice</b><p>{children}</p></div>;}

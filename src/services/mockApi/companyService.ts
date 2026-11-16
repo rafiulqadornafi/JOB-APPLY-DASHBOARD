@@ -1,0 +1,1 @@
+import {mockCompanies} from "../../data/mock/companies";export const companyService={list:()=>mockCompanies,find:(id:string)=>mockCompanies.find(c=>c.id===id)};

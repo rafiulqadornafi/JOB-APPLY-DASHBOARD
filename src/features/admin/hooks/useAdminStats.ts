@@ -1,0 +1,1 @@
+import {useAppStore} from "../../../app/store/appStore";export function useAdminStats(){const jobs=useAppStore(s=>s.jobs);const applications=useAppStore(s=>s.applications);return {jobs:jobs.length,applications:applications.length};}

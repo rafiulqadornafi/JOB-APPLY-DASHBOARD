@@ -1,0 +1,1 @@
+import {CalendarDays} from "lucide-react";export function InterviewCard({candidate,role,date}:{candidate:string;role:string;date:string}){return <div className="interview-row"><CalendarDays/><div><b>{candidate}</b><small>{role} · {date}</small></div></div>;}

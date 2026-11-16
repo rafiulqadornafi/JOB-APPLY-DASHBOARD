@@ -1,0 +1,1 @@
+export function ProfileStrength({value=92}:{value?:number}){return <div className="profile-strength"><b>{value}% profile strength</b><div className="progress-track"><span style={{width:`${value}%`}}/></div></div>;}

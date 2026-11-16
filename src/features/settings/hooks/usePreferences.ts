@@ -1,0 +1,1 @@
+import {useState} from "react";export function usePreferences(){const [emailNotifications,setEmailNotifications]=useState(true);const [productUpdates,setProductUpdates]=useState(false);return {emailNotifications,setEmailNotifications,productUpdates,setProductUpdates};}

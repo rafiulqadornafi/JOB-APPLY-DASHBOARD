@@ -1,0 +1,1 @@
+export const environment={appName:import.meta.env.VITE_APP_NAME??"HIRENEST",isProduction:import.meta.env.PROD};

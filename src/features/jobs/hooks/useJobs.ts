@@ -1,0 +1,1 @@
+import {useAppStore} from "../../../app/store/appStore";export function useJobs(){return useAppStore(s=>s.jobs);}

@@ -1,0 +1,1 @@
+export interface Company{id:string;name:string;initials:string;industry:string;location:string;openings:number;description:string;color:string;}

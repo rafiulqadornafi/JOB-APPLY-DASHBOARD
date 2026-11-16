@@ -1,0 +1,1 @@
+export function Avatar({initials,size="normal"}:{initials:string;size?:"normal"|"large"}){return <span className={`avatar ${size==="large"?"avatar-large":""}`}>{initials}</span>;}

@@ -1,0 +1,1 @@
+import {Badge} from "../../../components/ui/Badge";export function JobStatus({active=true}:{active?:boolean}){return <Badge tone={active?"success":"warning"}>{active?"Active":"Paused"}</Badge>;}

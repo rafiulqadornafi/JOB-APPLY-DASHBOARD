@@ -1,0 +1,1 @@
+export const ROUTES={home:"/",jobs:"/jobs",companies:"/companies",about:"/about",pricing:"/pricing",contact:"/contact",login:"/login",register:"/register",candidate:"/candidate",employer:"/employer",admin:"/admin"} as const;

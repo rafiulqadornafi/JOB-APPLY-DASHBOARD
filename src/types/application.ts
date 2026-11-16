@@ -1,0 +1,2 @@
+export type ApplicationStatus="Under review"|"Shortlisted"|"Interview"|"Rejected"|"Hired";
+export interface Application{id:string;jobId:string;jobTitle:string;company:string;candidateId:string;candidateName:string;email:string;appliedAt:string;status:ApplicationStatus;}

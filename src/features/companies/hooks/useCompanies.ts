@@ -1,0 +1,1 @@
+import {mockCompanies} from "../../../data/mock/companies";export const useCompanies=()=>mockCompanies;

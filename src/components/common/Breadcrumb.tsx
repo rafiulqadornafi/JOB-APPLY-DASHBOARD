@@ -1,0 +1,1 @@
+import {Link} from "react-router-dom";export function Breadcrumb({items}:{items:{label:string;to?:string}[]}){return <div className="breadcrumb">{items.map((x,i)=><span key={x.label}>{x.to?<Link to={x.to}>{x.label}</Link>:x.label}{i<items.length-1&&" / "}</span>)}</div>;}

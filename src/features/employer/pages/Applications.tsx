@@ -1,0 +1,2 @@
+import {PageHeader} from "../../../components/common/PageHeader";import {useAppStore} from "../../../app/store/appStore";import {ApplicationTable} from "../../applications/components/ApplicationTable";
+export function Applications(){const apps=useAppStore(s=>s.applications);return <><PageHeader eyebrow="TALENT PIPELINE" title="Applications" description="Review candidates and move great people forward."/><section className="surface"><ApplicationTable applications={apps} employer/></section></>;}

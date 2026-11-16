@@ -1,0 +1,1 @@
+export function ConversationList(){return <div className="conversation-list"><button><b>Olivia Bennett</b><small>Thanks for your application...</small></button><button><b>Recruitment Team</b><small>Your interview is confirmed.</small></button></div>;}

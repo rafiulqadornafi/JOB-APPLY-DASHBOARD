@@ -1,0 +1,1 @@
+export const analyticsMonths=[{month:"Jun",applications:28,hires:7},{month:"Jul",applications:42,hires:11},{month:"Aug",applications:36,hires:9},{month:"Sep",applications:58,hires:15},{month:"Oct",applications:49,hires:13},{month:"Nov",applications:72,hires:19}];

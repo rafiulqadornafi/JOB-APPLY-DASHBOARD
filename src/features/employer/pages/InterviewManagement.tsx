@@ -1,0 +1,2 @@
+import {Plus} from "lucide-react";import {PageHeader} from "../../../components/common/PageHeader";import {InterviewList} from "../../interviews/components/InterviewList";import {Button} from "../../../components/ui/Button";
+export function InterviewManagement(){return <><PageHeader eyebrow="INTERVIEW SCHEDULE" title="Interview management" description="Keep conversations organized and make every candidate experience count." action={<Button onClick={()=>alert("Interview scheduling is a demo action.")}><Plus size={15}/> Schedule interview</Button>}/><InterviewList/></>;}

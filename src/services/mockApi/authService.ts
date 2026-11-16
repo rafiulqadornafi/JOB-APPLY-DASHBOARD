@@ -1,0 +1,1 @@
+import type {UserRole} from "../../types";import {useAuthStore} from "../../app/store/authStore";export const authService={loginDemo:(r:UserRole)=>useAuthStore.getState().loginAs(r),logout:()=>useAuthStore.getState().logout()};

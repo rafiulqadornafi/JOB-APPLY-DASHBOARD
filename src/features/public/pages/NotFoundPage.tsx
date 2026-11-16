@@ -1,0 +1,1 @@
+import {Link} from "react-router-dom";export function NotFoundPage(){return <main className="not-found container"><small>404 · PAGE NOT FOUND</small><h1>This page took another path.</h1><p>The page you're looking for may have moved or no longer exists.</p><Link to="/" className="button button-primary">Back to home</Link></main>;}

@@ -1,0 +1,1 @@
+import type {UserRole} from "../types";export const canManageJobs=(r:UserRole)=>r==="employer"||r==="admin";export const canAccessAdmin=(r:UserRole)=>r==="admin";

@@ -1,0 +1,1 @@
+export const isValidJob=(job:{title:string;company:string;description:string})=>Boolean(job.title.trim()&&job.company.trim()&&job.description.trim());

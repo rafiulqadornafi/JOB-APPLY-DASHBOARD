@@ -1,0 +1,1 @@
+import {Select} from "../../../components/ui/Select";export function JobSort({value,onChange}:{value:string;onChange:(v:string)=>void}){return <Select value={value} onChange={e=>onChange(e.target.value)}><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="title">Job title A–Z</option></Select>;}

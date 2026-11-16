@@ -1,0 +1,1 @@
+import {JobForm} from "./JobForm";export function EditJob(){return <JobForm editing/>;}

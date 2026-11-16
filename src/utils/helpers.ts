@@ -1,0 +1,1 @@
+export const getInitials=(name:string)=>name.trim().split(/\s+/).map(x=>x[0]).join("").slice(0,2).toUpperCase();export const classNames=(...v:(string|false|null|undefined)[])=>v.filter(Boolean).join(" ");

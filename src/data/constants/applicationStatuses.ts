@@ -1,0 +1,1 @@
+export const applicationStatuses=["Under review","Shortlisted","Interview","Rejected","Hired"] as const;

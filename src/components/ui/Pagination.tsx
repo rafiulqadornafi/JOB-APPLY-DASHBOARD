@@ -1,0 +1,1 @@
+export function Pagination({page,pages,onChange}:{page:number;pages:number;onChange:(p:number)=>void}){return <div className="pagination"><button disabled={page<=1} onClick={()=>onChange(page-1)}>Previous</button><span>Page {page} of {pages}</span><button disabled={page>=pages} onClick={()=>onChange(page+1)}>Next</button></div>;}

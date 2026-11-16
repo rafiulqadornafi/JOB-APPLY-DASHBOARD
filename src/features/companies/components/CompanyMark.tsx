@@ -1,0 +1,1 @@
+export function CompanyMark({initials,color="blue"}:{initials:string;color?:string}){return <span className={`company-mark ${color}`}>{initials}</span>;}

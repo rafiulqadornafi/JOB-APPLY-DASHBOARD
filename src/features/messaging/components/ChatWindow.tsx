@@ -1,0 +1,1 @@
+export function ChatWindow({messages}:{messages:string[]}){return <div className="chat-history">{messages.map((m,i)=><p key={`${m}-${i}`}>{m}</p>)}</div>;}

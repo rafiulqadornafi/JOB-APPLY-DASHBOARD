@@ -1,0 +1,1 @@
+import {useNotificationStore} from "../../../app/store/notificationStore";export const useNotifications=()=>useNotificationStore(s=>s.items);

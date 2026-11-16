@@ -1,0 +1,2 @@
+import type {ApplicationStatus as Status} from "../../../types";import {Badge} from "../../../components/ui/Badge";
+export function ApplicationStatus({status}:{status:Status}){const tone=status==="Shortlisted"||status==="Hired"?"success":status==="Interview"?"info":status==="Rejected"?"danger":"warning";return <Badge tone={tone}>{status}</Badge>;}

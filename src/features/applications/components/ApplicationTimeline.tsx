@@ -1,0 +1,2 @@
+import type {Application} from "../../../types";const stages=["Applied","Under review","Shortlisted","Interview","Hired"];
+export function ApplicationTimeline({application}:{application:Application}){const current=stages.indexOf(application.status==="Rejected"?"Under review":application.status);return <div className="timeline">{stages.map((s,i)=><div className={i<=current?"complete":""} key={s}><i/><span>{s}</span></div>)}</div>;}

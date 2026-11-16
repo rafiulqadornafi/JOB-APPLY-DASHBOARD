@@ -1,0 +1,1 @@
+import {useState} from "react";export function Tabs({items}:{items:string[]}){const [active,setActive]=useState(items[0]);return <div className="tabs">{items.map(x=><button key={x} className={active===x?"active":""} onClick={()=>setActive(x)}>{x}</button>)}</div>;}

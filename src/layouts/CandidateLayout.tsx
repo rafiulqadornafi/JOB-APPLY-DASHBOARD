@@ -1,0 +1,1 @@
+import {WorkspaceShell} from "./WorkspaceShell";export function CandidateLayout(){return <WorkspaceShell role="candidate"/>;}

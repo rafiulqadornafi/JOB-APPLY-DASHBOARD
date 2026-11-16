@@ -1,0 +1,1 @@
+import {Bell} from "lucide-react";export function NotificationItem({title,body,time,unread}:{title:string;body:string;time:string;unread:boolean}){return <div className="notification-item"><Bell size={18}/><div><b>{title}</b><p>{body}</p><small>{time}</small></div>{unread&&<i/>}</div>;}

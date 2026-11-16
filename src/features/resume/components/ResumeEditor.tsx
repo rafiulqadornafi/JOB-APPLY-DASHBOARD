@@ -1,0 +1,1 @@
+export function ResumeEditor(){return <div className="surface"><h3>Resume editor</h3><p>Edit your headline, summary, experience, and skills from the Resume Builder page.</p></div>;}

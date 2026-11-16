@@ -1,0 +1,1 @@
+export interface Job{id:string;title:string;company:string;companyInitials:string;location:string;type:string;level:string;salary:string;category:string;postedAt:string;description:string;featured?:boolean;color?:string;createdBy?:string;}

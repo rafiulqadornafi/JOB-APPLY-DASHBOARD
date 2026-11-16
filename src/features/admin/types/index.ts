@@ -1,0 +1,1 @@
+export interface AdminReport{id:string;subject:string;reason:string;priority:"High"|"Normal";}

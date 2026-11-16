@@ -1,0 +1,2 @@
+import type {Application} from "../../../types";import {ApplicationStatus} from "./ApplicationStatus";
+export function ApplicationCard({application}:{application:Application}){return <article className="application-card"><div><b>{application.jobTitle}</b><small>{application.company} · Applied {application.appliedAt}</small></div><ApplicationStatus status={application.status}/></article>;}

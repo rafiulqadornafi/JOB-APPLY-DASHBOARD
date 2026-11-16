@@ -1,0 +1,1 @@
+import {PageHeader} from "../../../components/common/PageHeader";import {InterviewList} from "../../interviews/components/InterviewList";export function MyInterviews(){return <><PageHeader eyebrow="INTERVIEW SCHEDULE" title="My interviews" description="Stay prepared for every conversation with a hiring team."/><InterviewList/></>;}

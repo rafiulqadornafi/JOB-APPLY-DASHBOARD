@@ -1,0 +1,1 @@
+import {create} from "zustand";import {mockNotifications} from "../../data/mock/notifications";interface Item{id:string;title:string;body:string;time:string;unread:boolean;}interface State{items:Item[];markAllRead:()=>void;}export const useNotificationStore=create<State>(set=>({items:mockNotifications,markAllRead:()=>set(s=>({items:s.items.map(n=>({...n,unread:false}))}))}));

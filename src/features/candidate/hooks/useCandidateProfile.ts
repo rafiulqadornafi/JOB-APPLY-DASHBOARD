@@ -1,0 +1,1 @@
+import {useAuthStore} from "../../../app/store/authStore";export const useCandidateProfile=()=>useAuthStore(s=>s.user);

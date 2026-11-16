@@ -1,0 +1,1 @@
+export interface CandidateProfile{headline:string;location:string;skills:string[];summary:string;}

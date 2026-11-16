@@ -1,0 +1,1 @@
+import {isEmail,required} from "../../../utils/validation";export const validateLogin=(email:string,password:string)=>({email:isEmail(email),password:required(password)});

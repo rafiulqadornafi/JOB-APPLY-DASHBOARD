@@ -1,0 +1,1 @@
+import type {Application} from "../../../types";export const countByStatus=(items:Application[],status:string)=>items.filter(x=>x.status===status).length;

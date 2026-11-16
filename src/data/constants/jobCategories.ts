@@ -1,0 +1,1 @@
+export const jobCategories=["Engineering","Design","Marketing","Business","Data","Human Resources","Finance"];

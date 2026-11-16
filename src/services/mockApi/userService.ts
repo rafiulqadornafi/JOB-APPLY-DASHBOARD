@@ -1,0 +1,1 @@
+import {sampleUsers} from "../../data/mock/users";export const userService={list:()=>sampleUsers,find:(id:string)=>sampleUsers.find(u=>u.id===id)};

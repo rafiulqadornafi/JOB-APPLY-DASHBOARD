@@ -1,0 +1,1 @@
+export function ResumeTemplates(){return <div className="template-options"><button className="active">Modern</button><button>Classic</button><button>Minimal</button></div>;}

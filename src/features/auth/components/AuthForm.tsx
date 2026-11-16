@@ -1,0 +1,1 @@
+import type {FormEvent,ReactNode} from "react";export function AuthForm({children,onSubmit}:{children:ReactNode;onSubmit:(e:FormEvent<HTMLFormElement>)=>void}){return <form className="auth-card form-stack" onSubmit={onSubmit}>{children}</form>;}

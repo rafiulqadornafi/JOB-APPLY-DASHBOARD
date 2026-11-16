@@ -1,0 +1,1 @@
+export {MyResume as ResumeBuilder} from "../../candidate/pages/MyResume";

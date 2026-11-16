@@ -1,0 +1,1 @@
+import {useAppStore} from "../../app/store/appStore";import type {ApplicationStatus} from "../../types";export const applicationService={list:()=>useAppStore.getState().applications,updateStatus:(id:string,status:ApplicationStatus)=>useAppStore.getState().updateApplicationStatus(id,status)};

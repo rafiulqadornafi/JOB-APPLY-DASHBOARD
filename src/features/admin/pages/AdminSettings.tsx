@@ -1,0 +1,1 @@
+import {SettingsPage} from "../../settings/pages/SettingsPage";export function AdminSettings(){return <SettingsPage/>;}

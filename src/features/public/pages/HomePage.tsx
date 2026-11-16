@@ -1,0 +1,2 @@
+import {HeroSection} from "../components/HeroSection";import {FeaturedJobs} from "../components/FeaturedJobs";import {FeaturedCompanies} from "../components/FeaturedCompanies";import {CategoriesSection} from "../components/CategoriesSection";import {TestimonialSection} from "../components/TestimonialSection";import {CTASection} from "../components/CTASection";
+export function HomePage(){return <><HeroSection/><FeaturedJobs/><FeaturedCompanies/><CategoriesSection/><TestimonialSection/><CTASection/></>;}

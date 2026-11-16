@@ -1,0 +1,1 @@
+export const appConfig={name:"HIRENEST",tagline:"Find work that moves you forward.",version:"2.0.0"};

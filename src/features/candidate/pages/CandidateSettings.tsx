@@ -1,0 +1,1 @@
+import {SettingsPage} from "../../settings/pages/SettingsPage";export function CandidateSettings(){return <SettingsPage/>;}

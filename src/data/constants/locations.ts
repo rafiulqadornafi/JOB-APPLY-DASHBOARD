@@ -1,0 +1,1 @@
+export const locations=["All locations","Dhaka","Chattogram","Remote"];

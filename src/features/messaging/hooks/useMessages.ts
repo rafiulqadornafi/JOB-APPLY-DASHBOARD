@@ -1,0 +1,1 @@
+import {useState} from "react";export function useMessages(initial:string[]=[]){const [messages,setMessages]=useState(initial);const send=(message:string)=>{if(message.trim())setMessages(x=>[...x,message]);};return {messages,send};}

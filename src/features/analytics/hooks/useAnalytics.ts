@@ -1,0 +1,1 @@
+import {analyticsMonths} from "../../../data/mock/analytics";import {useAppStore} from "../../../app/store/appStore";export function useAnalytics(){const applications=useAppStore(s=>s.applications);return {applications:applications.length,months:analyticsMonths};}

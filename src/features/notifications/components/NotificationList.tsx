@@ -1,0 +1,1 @@
+import {useNotificationStore} from "../../../app/store/notificationStore";import {NotificationItem} from "./NotificationItem";export function NotificationList(){const items=useNotificationStore(s=>s.items);return <div className="surface">{items.map(n=><NotificationItem key={n.id} {...n}/>)}</div>;}

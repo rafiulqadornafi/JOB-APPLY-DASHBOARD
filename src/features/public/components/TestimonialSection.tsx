@@ -1,0 +1,1 @@
+export function TestimonialSection(){return <section className="testimonial-section"><div className="container testimonial"><small>GOOD PEOPLE. GREAT WORK.</small><h2>“The right opportunity changes more than your job title. It changes what you believe is possible.”</h2><p>— HIRENEST community</p></div></section>;}

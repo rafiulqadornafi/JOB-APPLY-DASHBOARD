@@ -1,0 +1,1 @@
+import {SearchBar} from "../../../components/common/SearchBar";export function JobSearchBar({value,onChange}:{value:string;onChange:(v:string)=>void}){return <SearchBar value={value} onChange={onChange} placeholder="Search title, company or keyword"/>;}

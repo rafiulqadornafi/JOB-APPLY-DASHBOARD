@@ -1,0 +1,1 @@
+export const formatCurrency=(n:number,currency="BDT")=>new Intl.NumberFormat("en-BD",{style:"currency",currency,maximumFractionDigits:0}).format(n);

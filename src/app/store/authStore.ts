@@ -1,0 +1,3 @@
+import {create} from "zustand";import {persist} from "zustand/middleware";import type {User,UserRole} from "../../types";import {demoUsers} from "../../data/mock/users";
+interface State{user:User|null;loginAs:(role:UserRole)=>void;registerDemo:(name:string,email:string,role:UserRole)=>void;logout:()=>void;updateUser:(patch:Partial<User>)=>void;}
+export const useAuthStore=create<State>()(persist((set)=>({user:null,loginAs:role=>set({user:{...demoUsers[role]}}),registerDemo:(name,email,role)=>set({user:{...demoUsers[role],name,email,initials:name.split(" ").map(x=>x[0]).join("").slice(0,2).toUpperCase()}}),logout:()=>set({user:null}),updateUser:patch=>set(s=>s.user?{user:{...s.user,...patch}}:{})}),{name:"hirenest-auth"}));

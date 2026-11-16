@@ -1,0 +1,1 @@
+export interface Interview{id:string;candidate:string;role:string;date:string;time:string;status:string;}
